@@ -108,15 +108,19 @@
 
 # Animal1.show()
 
-class Animal:
-    name1 = " lion " 
+# class Animal:
 
-class Human:
-    name2 = " gayatri"
+#     def  __init__(self,name):
+#      pass 
 
-class Robots(Animal,Human):
-    name3 = "charli123"
+# class Human:
+#     def __init__(self,name,age):
+#         pass
 
-obj = Robots()
+# class Robots(Human,Animal):
+#     name3 = "charli123"
 
-print(obj.name3)
+# obj = Robots()
+
+# print(obj.name3)
+
