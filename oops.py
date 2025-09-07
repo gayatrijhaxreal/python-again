@@ -83,27 +83,27 @@
 
 
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
 
-    def show(self):
-        print(f"hello your name is {self.name}")
+#     def show(self):
+#         print(f"hello your name is {self.name}")
 
 
-class Human(Animal):
-    def __init__(self, name ,age):
-        super().__init__(name)
-        self.age = age
+# class Human(Animal):
+#     def __init__(self, name ,age):
+#         super().__init__(name)
+#         self.age = age
         
-    def show(self):
-        print(f"hello your name is {self.name} , {self.age}")
+#     def show(self):
+#         print(f"hello your name is {self.name} , {self.age}")
 
 
 
-Animal1 = Animal("lion")
-person1 = Human("gayatri", 18)
+# Animal1 = Animal("lion")
+# person1 = Human("gayatri", 18)
 
-person1.show()
+# person1.show()
 
-Animal1.show()
+# Animal1.show()
