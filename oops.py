@@ -92,8 +92,18 @@ class Animal:
 
 
 class Human(Animal):
-    pass
+    def __init__(self, name ,age):
+        super().__init__(name)
+        self.age = age
+        
+    def show(self):
+        print(f"hello your name is {self.name} , {self.age}")
+
+
+
 Animal1 = Animal("lion")
-person1 = Human("gayatri")
+person1 = Human("gayatri", 18)
 
 person1.show()
+
+Animal1.show()
