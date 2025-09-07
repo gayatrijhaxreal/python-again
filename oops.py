@@ -81,3 +81,19 @@
 
 # print(obj2.hello())
 
+
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print(f"hello your name is {self.name}")
+
+
+class Human(Animal):
+    pass
+Animal1 = Animal("lion")
+person1 = Human("gayatri")
+
+person1.show()
