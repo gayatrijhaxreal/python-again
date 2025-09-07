@@ -47,23 +47,37 @@
 
 # reebok.show()
 
-class Animal :
-    name = " lion " #class attribute 
+# class Animal :
+#     name = " lion " #class attribute 
 
-    def __init__(self,age):
-        self.age = age # instance attribute
+#     def __init__(self,age):
+#         self.age = age # instance attribute
 
-    def show(self):#/instance method
-        print(f" how RE YOU BROTHER {self.age}")
+#     def show(self):#/instance method
+#         print(f" how RE YOU BROTHER {self.age}")
 
-    @classmethod
-    def hello(cls): # class method
-        print(f"how are you brother {cls.age}")
+#     @classmethod
+#     def hello(cls): # class method
+#         print(f"how are you brother {cls.age}")
 
-    @staticmethod
-    def static():
-        print("how are you ")
+#     @staticmethod
+#     def static():
+#         print("how are you ")
 
-obj = Animal(12)
+# obj = Animal(12)
 
-obj.static()
+# obj.static()
+
+# class Factorymumbai :  #parent class /super class
+#     a = "I am an attribute mentioned inside factory"
+#     def hello(self):
+#         print(" hello i am a method mentioned inside factory")
+
+# class Factorypune(Factorymumbai):#child class /subclass
+#     pass
+
+# obj = Factorymumbai()
+# obj2 = Factorypune()
+
+# print(obj2.hello())
+
