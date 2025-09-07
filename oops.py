@@ -55,5 +55,6 @@ class Animal :
     def show(self):#/instance method
         print(f"the name of the animal is {self.name} and its age is {self.age}")
 
-        
-
+    @classmethod
+    def hello(cls): # class method
+        print("how are you brother")
