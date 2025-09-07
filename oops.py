@@ -49,12 +49,21 @@
 
 class Animal :
     name = " lion " #class attribute 
-    def ___init__(self,age):
+
+    def __init__(self,age):
         self.age = age # instance attribute
 
     def show(self):#/instance method
-        print(f"the name of the animal is {self.name} and its age is {self.age}")
+        print(f" how RE YOU BROTHER {self.age}")
 
     @classmethod
     def hello(cls): # class method
-        print("how are you brother")
+        print(f"how are you brother {cls.age}")
+
+    @staticmethod
+    def static():
+        print("how are you ")
+
+obj = Animal(12)
+
+obj.static()
