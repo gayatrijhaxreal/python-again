@@ -52,3 +52,8 @@ class Animal :
     def ___init__(self,age):
         self.age = age # instance attribute
 
+    def show(self):#/instance method
+        print(f"the name of the animal is {self.name} and its age is {self.age}")
+
+        
+
