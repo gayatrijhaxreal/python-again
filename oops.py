@@ -139,4 +139,41 @@
 #              super().__init__(material,zips,color)
 #              self.pockets = pockets
 
-# obj = PuneFactory()
+# def show():
+#     print("how are you")
+
+# def show():
+#     print("you are best")
+
+# show()
+
+
+# class Animal :
+#     def show():
+#         print("hello i am aakarsh")
+
+ 
+        
+# class Human(Animal):
+#     def show(self):
+#         print("how are you")
+
+# obj =Human()
+
+# obj.Show()
+
+
+# class Animal:
+#     def show(self):
+#         print("i am showing")
+
+# class human:
+#     def show(self):
+#         print("hello I am also showing")
+
+# obj = Animal()
+# obj2 = human()
+
+# obj.show()
+# obj2.show()
+
