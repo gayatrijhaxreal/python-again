@@ -107,3 +107,16 @@
 # person1.show()
 
 # Animal1.show()
+
+class Animal:
+    name1 = " lion " 
+
+class Human:
+    name2 = " gayatri"
+
+class Robots(Animal,Human):
+    name3 = "charli123"
+
+obj = Robots()
+
+print(obj.name3)
